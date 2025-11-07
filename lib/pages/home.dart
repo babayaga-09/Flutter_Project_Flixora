@@ -133,7 +133,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // 🎞️ Categories (Movie Genres)
+
   Column _categoriesSection() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -198,7 +198,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // ⭐ Popular Movies
+  
   Column _popularSection() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -281,7 +281,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // 🔍 Search Field
+  
   Container _searchField() {
     return Container(
       margin: const EdgeInsets.only(top: 40, left: 20, right: 20),
@@ -317,7 +317,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // 🎬 App Bar
+ 
   AppBar appBar() {
     return AppBar(
       title: const Text(
